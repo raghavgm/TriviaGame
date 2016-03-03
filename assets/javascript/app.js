@@ -24,7 +24,7 @@ var correct = 0;
 
 
 $(document).ready(function(){
-	setTimeout(myFunction,12000);
+	setTimeout(myFunction,12000);//I couldn't figure out how to show the timer...
 	function myFunction() {
 		alert("You are out of time")
 	};
@@ -42,7 +42,7 @@ $(".answer1").click(function(){
 	nextQuestion2();
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 
 
 });
@@ -51,7 +51,7 @@ $(".answer2").click(function(){
 	nextQuestion2();
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 });
 
 $(".answer3").click(function(){
@@ -59,7 +59,7 @@ $(".answer3").click(function(){
 	nextQuestion2();
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 
 });
 
@@ -68,7 +68,7 @@ $(".answer4").click(function(){
 	nextQuestion2();
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 });
 
 
@@ -87,7 +87,7 @@ $(".answer1").click(function(){
 	nextQuestion3();
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 });
 
 $(".answer2").click(function(){
@@ -95,7 +95,7 @@ $(".answer2").click(function(){
 	nextQuestion3();
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 	
 });
 
@@ -104,7 +104,7 @@ $(".answer3").click(function(){
 	nextQuestion3();
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 
 });
 
@@ -113,7 +113,7 @@ $(".answer4").click(function(){
 	nextQuestion3();
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 	
 
 });
@@ -134,7 +134,7 @@ $(".answer1").click(function(){
 	console.log(incorrect);
 	console.log(correct);
 	nextQuestion4();
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 });
 
 $(".answer2").click(function(){
@@ -142,7 +142,7 @@ $(".answer2").click(function(){
 	console.log(incorrect);
 	console.log(correct);
 	nextQuestion4();
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 });
 
 $(".answer3").click(function(){
@@ -150,7 +150,7 @@ $(".answer3").click(function(){
 	console.log(incorrect);
 	console.log(correct);
 	nextQuestion4();
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 
 });
 
@@ -159,7 +159,7 @@ $(".answer4").click(function(){
 	console.log(incorrect);
 	console.log(correct);
 	nextQuestion4();
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 	
 
 });
@@ -182,7 +182,7 @@ $(".answer1").click(function(){
 	console.log(incorrect);
 	console.log(correct);
 	nextQuestion5();
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 	
 });
 
@@ -191,7 +191,7 @@ $(".answer2").click(function(){
 	console.log(incorrect);
 	console.log(correct);
 	nextQuestion5();
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 });
 
 $(".answer3").click(function(){
@@ -199,7 +199,7 @@ $(".answer3").click(function(){
 	console.log(incorrect);
 	console.log(correct);
 	nextQuestion5();
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 });
 
 $(".answer4").click(function(){
@@ -207,7 +207,7 @@ $(".answer4").click(function(){
 	console.log(incorrect);
 	console.log(correct);
 	nextQuestion5();
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 
 });
 
@@ -226,7 +226,7 @@ $(".answer1").click(function(){
 	correct++;
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 	if(correct)
 	endGame();
 });
@@ -235,7 +235,7 @@ $(".answer2").click(function(){
 	incorrect++;
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 	endGame();
 });
 
@@ -244,7 +244,7 @@ $(".answer3").click(function(){
 	incorrect++;
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 	endGame();
 });
 
@@ -252,7 +252,7 @@ $(".answer4").click(function(){
 	incorrect++;
 	console.log(incorrect);
 	console.log(correct);
-	$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
+	//$(".score").html("<p> correct: " + correct + "</p>" + "<p> incorret: " +incorrect + "</p");
 	endGame();
 	
 });
